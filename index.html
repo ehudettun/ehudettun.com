@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ehud Ettun — Bassist &amp; Composer | Official Website</title>
-<meta name="description" content="Ehud Ettun is an Israeli-born bassist and composer known for his melodic, expressive approach to the upright bass. Performances at the Blue Note NYC and the Kennedy Center; founder of Internal Compass Music.">
+<title>Ehud Ettun — Israeli-born, Boston-based Jazz Bassist &amp; Composer | Official Website</title>
+<meta name="description" content="Ehud Ettun is an Israeli-born, Boston-based jazz double bassist and composer. Blue Note NYC and Kennedy Center; Ehud Ettun Trio and The Yabuno Ettun Project. Booking, sideman work and bass lessons.">
 <link rel="canonical" href="https://www.ehudettun.com/">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230b0b0d'/%3E%3Ctext x='16' y='23' font-family='Georgia,serif' font-size='20' fill='%23c9a86a' text-anchor='middle'%3EE%3C/text%3E%3C/svg%3E">
 <meta property="og:type" content="website">
@@ -19,15 +19,54 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Ehud Ettun",
-  "jobTitle": "Bassist & Composer",
-  "url": "https://www.ehudettun.com/",
-  "image": "https://www.ehudettun.com/assets/portrait.jpg",
-  "sameAs": [
-    "https://open.spotify.com/artist/6FYO4my0MZxbXJGuwXILWH",
-    "https://www.youtube.com/@EhudEttun",
-    "https://www.instagram.com/ehudettun"
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.ehudettun.com/#person",
+      "name": "Ehud Ettun",
+      "jobTitle": "Double bassist, composer and educator",
+      "description": "Israeli-born, Boston-based jazz double bassist and composer; leader of the Ehud Ettun Trio and co-leader of The Yabuno Ettun Project.",
+      "url": "https://www.ehudettun.com/",
+      "image": "https://www.ehudettun.com/assets/portrait.jpg",
+      "email": "mailto:ehudettun@gmail.com",
+      "birthPlace": {"@type": "Place", "name": "Israel"},
+      "homeLocation": {"@type": "Place", "name": "Boston, Massachusetts"},
+      "alumniOf": {"@type": "CollegeOrUniversity", "name": "New England Conservatory"},
+      "knowsAbout": ["Jazz", "Double bass", "Composition", "Jazz education", "Israeli music"],
+      "founder": {"@type": "Organization", "name": "Internal Compass Music", "url": "https://www.internalcompassmusic.com"},
+      "memberOf": [{"@id": "https://www.ehudettun.com/#trio"}, {"@id": "https://www.ehudettun.com/#yabuno-ettun"}],
+      "sameAs": [
+        "https://open.spotify.com/artist/6FYO4my0MZxbXJGuwXILWH",
+        "https://www.youtube.com/@EhudEttun",
+        "https://www.instagram.com/ehudettun"
+      ]
+    },
+    {
+      "@type": "MusicGroup",
+      "@id": "https://www.ehudettun.com/#trio",
+      "name": "Ehud Ettun Trio",
+      "genre": ["Jazz", "Contemporary jazz"],
+      "url": "https://www.ehudettun.com/booking/",
+      "member": {"@id": "https://www.ehudettun.com/#person"},
+      "sameAs": ["https://open.spotify.com/artist/6FYO4my0MZxbXJGuwXILWH"],
+      "album": [
+        {"@type": "MusicAlbum", "name": "Raw Gestures", "datePublished": "2014", "url": "https://open.spotify.com/album/57RxImdfojk8DRTbFjY3Hl"}
+      ]
+    },
+    {
+      "@type": "MusicGroup",
+      "@id": "https://www.ehudettun.com/#yabuno-ettun",
+      "name": "The Yabuno Ettun Project",
+      "genre": ["Jazz", "Chamber jazz"],
+      "member": [{"@id": "https://www.ehudettun.com/#person"}, {"@type": "Person", "name": "Haruka Yabuno"}],
+      "album": [
+        {"@type": "MusicAlbum", "name": "Knights of Silence", "datePublished": "2024", "url": "https://open.spotify.com/album/2ayBdKap1VDyIDgDFdbccE"},
+        {"@type": "MusicAlbum", "name": "BiPolar", "datePublished": "2014", "url": "https://open.spotify.com/album/2n5M5xmo18SDipcPlvs6ZM"}
+      ]
+    },
+    {"@type": "MusicAlbum", "name": "Deep in the Mountains", "datePublished": "2019", "byArtist": {"@id": "https://www.ehudettun.com/#person"}, "url": "https://open.spotify.com/album/3aMI9S7uU6mphJVXnFXXtW"},
+    {"@type": "MusicAlbum", "name": "Heading North", "datePublished": "2012", "byArtist": {"@id": "https://www.ehudettun.com/#person"}},
+    {"@type": "MusicAlbum", "name": "Collage of Moments", "datePublished": "2016", "byArtist": {"@id": "https://www.ehudettun.com/#person"}}
   ]
 }
 </script>
@@ -263,7 +302,8 @@ footer a:hover { color: var(--gold); }
     <li><a href="#videos">Watch</a></li>
     <li><a href="#teaching">Teaching</a></li>
     <li><a href="#press">Press</a></li>
-    <li><a href="#contact">Booking</a></li>
+    <li><a href="/booking/">Booking</a></li>
+    <li><a href="#contact">Contact</a></li>
   </ul>
 </nav>
 
@@ -304,7 +344,8 @@ footer a:hover { color: var(--gold); }
       <p>Ehud Ettun is an Israeli-born bassist and composer known for his melodic, expressive approach to the upright bass. Blending jazz tradition with modern lyricism, he has earned international recognition for redefining the possibilities of the double bass — as a deeply vocal, versatile storytelling force.</p>
       <p>His sound is rooted in the spirit of players like Giovanni Bottesini, Charles Mingus, Charlie Haden and Ray Brown, yet unmistakably his own. Ettun's music draws influences from classical music, traditional Jewish and Israeli music, and from artists such as Chick Corea, Carla Bley and Brad Mehldau — all filtered through his distinct voice as a bassist and composer.</p>
       <p>Ettun has performed at major venues including the <strong>Blue Note</strong> in New York and the <strong>Kennedy Center</strong> in Washington D.C., and has toured internationally with stops in Boston, Toronto, Berlin, Warsaw, Tokyo and Seoul. As a sideman he has performed and recorded with artists such as <strong>Kenny Werner</strong>, <strong>Anat Cohen</strong> and <strong>George Garzone</strong>.</p>
-      <p>He is the founder and artistic director of <a href="https://www.internalcompassmusic.com" target="_blank" rel="noopener" style="color:var(--gold);">Internal Compass Music</a>, an accredited music college and jazz hub based in Mitzpe Ramon, Israel.</p>
+      <p>He is the founder and artistic director of <a href="https://www.internalcompassmusic.com" target="_blank" rel="noopener" style="color:var(--gold);">Internal Compass Music</a>, an accredited music college and jazz hub based in Mitzpe Ramon, Israel. A graduate of New England Conservatory, Ettun is now based in Boston, where he performs on the city's jazz scene and teaches jazz at NEC Prep.</p>
+      <p><a href="/booking/" style="color:var(--gold);">Booking info for festivals &amp; presenters</a> · <a href="/hire-a-bassist/" style="color:var(--gold);">Hire a bassist</a> · <a href="/bass-lessons/" style="color:var(--gold);">Bass lessons</a></p>
     </div>
   </div>
 </section>
@@ -414,8 +455,8 @@ footer a:hover { color: var(--gold); }
       <div class="section-kicker">Education</div>
       <h2 class="section-title">Teaching</h2>
       <p>Alongside his career on stage, Ettun is a dedicated educator. He is the founder and artistic director of <a href="https://www.internalcompassmusic.com" target="_blank" rel="noopener" style="color:var(--gold);">Internal Compass Music</a>, an accredited music college and jazz hub in Mitzpe Ramon, Israel, where musicians from around the world come to study, perform and create in the heart of the Negev desert.</p>
-      <p>Ettun is available for private lessons, masterclasses and clinics — for bassists, ensembles and composers — in person or online.</p>
-      <a class="btn" href="#contact">Inquire about lessons</a>
+      <p>Ettun is available for private lessons, masterclasses and clinics — for bassists, ensembles and composers — in person in the Boston area or online.</p>
+      <a class="btn" href="/bass-lessons/">Bass lessons</a>
     </div>
     <div class="teaching-photo reveal">
       <img src="assets/playing.jpg" alt="Ehud Ettun performing on the upright bass" loading="lazy">
@@ -498,6 +539,9 @@ footer a:hover { color: var(--gold); }
 
 <footer>
   © <span id="year"></span> Ehud Ettun · Bassist &amp; Composer ·
+  <a href="/booking/">For presenters &amp; festivals</a> ·
+  <a href="/hire-a-bassist/">Hire a bassist</a> ·
+  <a href="/bass-lessons/">Bass lessons</a> ·
   <a href="https://www.internalcompassmusic.com" target="_blank" rel="noopener">Internal Compass Music</a> ·
   <a href="https://aihud.net" target="_blank" rel="noopener">Built with AiHud</a>
 </footer>
