@@ -26,7 +26,6 @@
 ## Pages
 - [Home](https://www.ehudettun.com/): bio, music, videos, shows, press kit
 - [For festivals, presenters and booking agents](https://www.ehudettun.com/booking/): EPK, line-ups, recordings, booking contact
-- [Hire a double bass player](https://www.ehudettun.com/hire-a-bassist/): sideman, session and recording work
 - [Double bass lessons](https://www.ehudettun.com/bass-lessons/): in person near Boston and online worldwide
 - [Bio / one-sheet](https://www.ehudettun.com/assets/press/bio.txt)
 
